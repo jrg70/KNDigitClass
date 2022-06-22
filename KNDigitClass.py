@@ -2,7 +2,6 @@ from sklearn.datasets import load_digits
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import KFold
 from sklearn.metrics import accuracy_score
-from sklearn.neural_network import MLPClassifier
 import warnings
 from sklearn.exceptions import ConvergenceWarning
 import pandas as pd
